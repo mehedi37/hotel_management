@@ -1,4 +1,4 @@
-# Hotel Management System
+# 🏢 Hotel Management System
 A [PHP](https://www.php.net/) based hotel room management system with secure authentication and CRUD operations.
 
 🚀 [Live Site](http://hotel-management.infy.uk/public/index.php)
@@ -20,7 +20,7 @@ A [PHP](https://www.php.net/) based hotel room management system with secure aut
 - MySQL/MariaDB
 - Apache Web Server ([XAMPP](https://www.apachefriends.org) for Windows)
 
-## Installation
+## ⚙️ Installation
 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/hotel_management.git
@@ -118,7 +118,7 @@ hotel_management/
 
 
 
-## Author
+## ✒️ Author
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/41261534?s=400&u=917446fd6f90811cd8cf236d4b6f8f19067865b9&v=4" width="150" alt="Author Image">
 
