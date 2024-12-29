@@ -1,6 +1,10 @@
 # Hotel Management System
 A [PHP](https://www.php.net/) based hotel room management system with secure authentication and CRUD operations.
 
+🚀 [Live Site](http://hotel-management.infy.uk/public/index.php)
+> **username**: `devMeek`
+> **password**: `meek1025bitLong`
+
 
 ## Features
 - Admin Authentication System

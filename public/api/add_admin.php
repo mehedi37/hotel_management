@@ -2,6 +2,9 @@
 header('Content-Type: application/json');
 require_once __DIR__ . '/../../config/dbconnect.php';
 require_once __DIR__ . '/../../app/models/AdminUsers.php';
+require_once __DIR__ . '/../../app/utils/Cors.php';
+
+Cors::setHeaders();
 
 // Secret key for API access
 define('API_SECRET', '007tOPVictoriasSecret');

@@ -3,7 +3,7 @@ require_once __DIR__ . '/../../config/dbconnect.php';
 
 class AdminUsers {
     private $conn;
-    private $table = 'AdminUsers';
+    private $table = 'adminusers';
 
     public function __construct() {
         $database = new Database();
