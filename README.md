@@ -14,7 +14,7 @@ A [PHP](https://www.php.net/) based hotel room management system with secure aut
 ## Pre-requisites
 - PHP 8.2+
 - MySQL/MariaDB
-- Apache Web Server (XAMPP for Windows)
+- Apache Web Server ([XAMPP](https://www.apachefriends.org) for Windows)
 
 ## Installation
 1. Clone the repository
