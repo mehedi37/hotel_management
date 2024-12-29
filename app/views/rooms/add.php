@@ -17,7 +17,9 @@
             <option value="Occupied">Occupied</option>
         </select>
     </div>
-    <button type="submit" class="btn btn-success">Add Room</button>
+    <button type="submit" class="btn btn-success">
+    <i class="bi bi-house-add-fill"></i>&nbsp;
+    Add Room</button>
 </form>
 
 <?php include __DIR__ . '/../layouts/footer.php'; ?>

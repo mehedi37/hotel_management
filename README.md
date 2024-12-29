@@ -43,7 +43,7 @@ CREATE TABLE AdminUsers (
 );
 ```
 
-3. Update database configuration in [dbconnect.php](http://):
+1. Update database configuration in [dbconnect.php](https://github.com/mehedi37/hotel_management/blob/main/config/dbconnect.php):
 ```php
 <?php
 private $host = 'localhost';
@@ -52,13 +52,13 @@ private $username = 'your_username';
 private $password = 'your_password';
 ```
 
-4. Create necessary directories:
+1. Create necessary directories:
 ```bash
 mkdir logs
 chmod 777 logs
 ```
 
-5. Configure your web server to point to the [public](http://) directory.
+1. Configure your web server to point to the [public](https://github.com/mehedi37/hotel_management/tree/main/public) directory.
 
 ## Adding Admin Users
 

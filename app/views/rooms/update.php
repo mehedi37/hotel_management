@@ -19,7 +19,9 @@
             <div class="input-group">
                 <input type="number" class="form-control" id="updateRoomId" name="updateRoomId"
                        placeholder="Enter room ID" required>
-                <button type="button" class="btn btn-secondary" id="findRoom">Find Room</button>
+                <button type="button" class="btn btn-secondary" id="findRoom">
+                <i class="bi bi-search"></i>
+                Find Room</button>
             </div>
             <small class="form-text text-muted">Enter a room ID and click 'Find Room' to load its details</small>
         <?php endif; ?>
@@ -43,7 +45,9 @@
                 <option value="Occupied" <?= ($roomData['status'] ?? '') == 'Occupied' ? 'selected' : ''; ?>>Occupied</option>
             </select>
         </div>
-        <button type="submit" class="btn btn-primary">Update Room</button>
+        <button type="submit" class="btn btn-primary">
+        <i class="bi bi-floppy-fill"></i>
+        Update Room</button>
     </div>
 </form>
 

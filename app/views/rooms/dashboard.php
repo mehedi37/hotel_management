@@ -17,7 +17,9 @@
                 <td><?= $room['id']; ?></td>
                 <td><?= $room['type']; ?></td>
                 <td>&#2547; <?= $room['price']; ?></td>
-                <td><?= $room['status']; ?></td>
+                <td
+                class="<?= $room['status'] === 'Available' ? 'text-success' : 'text-danger'; ?>"
+                ><?= $room['status']; ?></td>
                 <td>
                     <a href="/hotel_management/public/index.php?action=updateRoom&id=<?= $room['id']; ?>" class="btn btn-warning btn-sm"><i class="bi bi-pencil-square"></i></a>
                     <form method="POST" action="/hotel_management/public/index.php?action=deleteRoom" style="display:inline;" onsubmit="return confirmDelete();">

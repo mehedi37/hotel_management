@@ -24,20 +24,23 @@ $csrfToken = $session->regenerateToken();
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" href="/hotel_management/public/index.php">Dashboard</a></li>
                     <li class="nav-item"><a class="nav-link" href="/hotel_management/public/index.php?action=addRoom">Add Room</a></li>
                     <li class="nav-item"><a class="nav-link" href="/hotel_management/public/index.php?action=updateRoom">Update Room</a></li>
                     <li class="nav-item"><a class="nav-link" href="/hotel_management/public/index.php?action=deleteRoom">Delete Room</a></li>
                 </ul>
+                <div class="navbar-nav">
+                    <span class="nav-item nav-link">
+                        <i class="bi bi-person-circle"></i>
+                        <?php echo $_SESSION['username']; ?>
+                    </span>
+                    <a href="/hotel_management/public/index.php?action=logout" class="nav-link text-danger">
+                        <i class="bi bi-box-arrow-right"></i>
+                        Logout
+                    </a>
+                </div>
             </div>
-        </div>
-
-        <div class="d-flex">
-            <span class="text-white me-3 mt-2"><?php echo $_SESSION['username']; ?></span>
-            <a href="/hotel_management/public/index.php?action=logout" class="btn btn-danger mx-2">
-            <i class="bi bi-box-arrow-right"></i>
-            Logout</a>
         </div>
     </nav>
     <div class="container mt-5">
