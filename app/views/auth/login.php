@@ -21,7 +21,9 @@ $csrfToken = $session->regenerateToken();
 <body>
     <div class="login-container">
         <div class="login-header">
-            <h2>Hotel Management</h2>
+            <h2>
+            <i class="bi bi-buildings-fill text-info"></i>
+                Hotel Management</h2>
             <p class="text-muted">Admin Login</p>
         </div>
 
