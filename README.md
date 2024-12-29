@@ -12,7 +12,7 @@ A [PHP](https://www.php.net/) based hotel room management system with secure aut
 - Activity Logging
 
 ## Pre-requisites
-- PHP 7.4+
+- PHP 8.2+
 - MySQL/MariaDB
 - Apache Web Server (XAMPP for Windows)
 
@@ -102,12 +102,16 @@ hotel_management/
 ## Demo Account
 - **Username:** `devMeek`
 - **Password:** `meek1025bitLong`
-> **Secret Key:** `007tOPVictoriasSecret` (For API)
+> **Secret Key:** `007tOPVictoriasSecret` (For [API](https://github.com/mehedi37/hotel_management?tab=readme-ov-file#method-2-using-api))
 
 ## Screenshots
 ### Login Page
+![image](https://github.com/user-attachments/assets/9f981ccb-9262-42fc-a05d-35ed01ccee28)
+
 
 ### Dashboard
+![image](https://github.com/user-attachments/assets/0b2c42ac-465b-4b4f-9a8a-347ba7e9dfb7)
+
 
 
 ## Author
