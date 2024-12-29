@@ -2,7 +2,7 @@
 A [PHP](https://www.php.net/) based hotel room management system with secure authentication and CRUD operations.
 
 
-### Features
+## Features
 - Admin Authentication System
 - Room Management (CRUD Operations)
 - Secure Session Management
@@ -11,12 +11,12 @@ A [PHP](https://www.php.net/) based hotel room management system with secure aut
 - Input Validation
 - Activity Logging
 
-### Pre-requisites
+## Pre-requisites
 - PHP 7.4+
 - MySQL/MariaDB
 - Apache Web Server (XAMPP for Windows)
 
-### Installation
+## Installation
 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/hotel_management.git
@@ -98,6 +98,17 @@ hotel_management/
 - Session Management
 - Input Validation
 - Secure Password Storage
+
+## Demo Account
+- **Username:** `devMeek`
+- **Password:** `meek1025bitLong`
+> **Secret Key:** `007tOPVictoriasSecret` (For API)
+
+## Screenshots
+### Login Page
+
+### Dashboard
+
 
 ## Author
 <div align="center">
