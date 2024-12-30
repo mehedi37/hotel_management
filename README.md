@@ -1,4 +1,4 @@
-# Hotel Management System
+# 🏢 Hotel Management System
 A [PHP](https://www.php.net/) based hotel room management system with secure authentication and CRUD operations.
 
 🚀 [Live Site](http://hotel-management.infy.uk/public/index.php)
@@ -6,7 +6,7 @@ A [PHP](https://www.php.net/) based hotel room management system with secure aut
 > **password**: `meek1025bitLong`
 
 
-## Features
+## 🔖 Features
 - Admin Authentication System
 - Room Management (CRUD Operations)
 - Secure Session Management
@@ -15,12 +15,12 @@ A [PHP](https://www.php.net/) based hotel room management system with secure aut
 - Input Validation
 - Activity Logging
 
-## Pre-requisites
+## 📃 Pre-requisites
 - PHP 8.2+
 - MySQL/MariaDB
 - Apache Web Server ([XAMPP](https://www.apachefriends.org) for Windows)
 
-## Installation
+## ⚙️ Installation
 1. Clone the repository
 ```bash
 git clone https://github.com/yourusername/hotel_management.git
@@ -78,7 +78,7 @@ VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi')
 curl -X POST http://yourdomain.com/hotel_management/public/api/add_admin.php -d "secret=007tOPVictoriasSecret&username=admin&password=admin123"
 ```
 
-## Project Structure
+## 📦 Project Structure
 ```bash
 hotel_management/
 ├── app/
@@ -94,7 +94,7 @@ hotel_management/
 └── logs/                # Application logs
 ```
 
-## Security Features
+## ⚡Security Features
 - Password Hashing using **`password_hash()`**
 - CSRF Protection
 - SQL Injection Prevention using PDO
@@ -103,12 +103,12 @@ hotel_management/
 - Input Validation
 - Secure Password Storage
 
-## Demo Account
+## 🤖 Demo Account
 - **Username:** `devMeek`
 - **Password:** `meek1025bitLong`
 > **Secret Key:** `007tOPVictoriasSecret` (For [API](https://github.com/mehedi37/hotel_management?tab=readme-ov-file#method-2-using-api))
 
-## Screenshots
+## 📸 Screenshots
 ### Login Page
 ![image](https://github.com/user-attachments/assets/9f981ccb-9262-42fc-a05d-35ed01ccee28)
 
@@ -118,7 +118,7 @@ hotel_management/
 
 
 
-## Author
+## ✒️ Author
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/41261534?s=400&u=917446fd6f90811cd8cf236d4b6f8f19067865b9&v=4" width="150" alt="Author Image">
 
