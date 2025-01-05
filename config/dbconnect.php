@@ -1,12 +1,16 @@
 <?php
 class Database {
-    private $host = 'localhost';
-    private $db_name = 'hotel_management';
-    private $username = 'root';
-    private $password = '';
+    private string $host = 'localhost';
+    private string $db_name = 'hotel_management';
+    private string $username = 'root';
+    private string $password = '';
     private $conn;
 
-    public function connect() {
+    /**
+     * @throws Exception
+     */
+    public function connect(): PDO
+    {
         if ($this->conn !== null) {
             return $this->conn;
         }

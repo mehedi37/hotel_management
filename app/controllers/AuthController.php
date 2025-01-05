@@ -4,7 +4,8 @@ require_once __DIR__ . '/../utils/SessionManager.php';
 require_once __DIR__ . '/../utils/Logger.php';
 
 class AuthController {
-    public function login() {
+    public function login(): void
+    {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $session = SessionManager::getInstance();
 

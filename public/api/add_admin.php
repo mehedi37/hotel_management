@@ -7,7 +7,7 @@ require_once __DIR__ . '/../../app/utils/Cors.php';
 Cors::setHeaders();
 
 // Secret key for API access
-define('API_SECRET', '007tOPVictoriasSecret');
+const API_SECRET = '007tOPVictoriasSecret';
 
 function validateRequest() {
     if (!isset($_GET['secret']) || $_GET['secret'] !== API_SECRET) {

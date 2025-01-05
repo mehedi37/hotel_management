@@ -2,7 +2,8 @@
 require_once __DIR__ . '/../models/Room.php';
 
 class RoomController {
-    public function addRoom() {
+    public function addRoom(): void
+    {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $room = new Room();
             $room->type = $_POST['roomType'];
@@ -15,7 +16,8 @@ class RoomController {
         }
     }
 
-    public function updateRoom() {
+    public function updateRoom(): void
+    {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $room = new Room();
             $room->id = $_POST['updateRoomId'];
@@ -46,7 +48,8 @@ class RoomController {
         }
     }
 
-    public function deleteRoom() {
+    public function deleteRoom(): void
+    {
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $room = new Room();
             $room->id = $_POST['deleteRoomId'];
@@ -57,7 +60,8 @@ class RoomController {
         }
     }
 
-    private function validateRoomInput($type, $price) {
+    private function validateRoomInput($type, $price): bool
+    {
     if (empty($type)) {
         $_SESSION['error'] = "Room type cannot be empty";
         return false;

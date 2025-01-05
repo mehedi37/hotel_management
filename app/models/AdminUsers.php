@@ -3,11 +3,15 @@ require_once __DIR__ . '/../../config/dbconnect.php';
 
 class AdminUsers {
     private $conn;
-    private $table = 'adminusers';
+    private string $table = 'adminusers';
 
     public function __construct() {
         $database = new Database();
-        $this->conn = $database->connect();
+        try {
+            $this->conn = $database->connect();
+        } catch (Exception $e) {
+            
+        }
     }
 
     public function getUserByUsername($username) {
